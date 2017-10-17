@@ -1,2 +1,0 @@
-# DevChellange
-mvp implimentation

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                tools:context="com.devcrewchallange.activities.MainActivity">
+
+    <Button
+        android:id="@+id/create_product_button"
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/fifty"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:text="@string/create_product"/>
+
+
+    <Button
+        android:id="@+id/show_product_button"
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/fifty"
+        android:layout_above="@id/create_product_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show_product"/>
+
+</RelativeLayout>
